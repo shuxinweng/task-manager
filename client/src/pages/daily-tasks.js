@@ -42,7 +42,7 @@ export const DailyTasks = () => {
 
     return (
         <div>
-            <h1> All Tasks </h1>
+            <h1> Daily Tasks </h1>
             <ul>
                 {sortedDailyTasks.map((task) => (
                     <li key={task._id}>
