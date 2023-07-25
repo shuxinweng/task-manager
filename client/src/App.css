@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+
+  .navbar {
+    background-color: #5d828a;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+  }
+
+  .navbar a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  .navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  .create-task {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 50px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .create-task h2 {
+    margin-bottom: 20px;
+  }
+  
+  .create-task label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .create-task input[type="text"],
+  .create-task input[type="date"],
+  .create-task input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .create-task input[type="number"] {
+    /* You can add additional styles specific to the number input if needed */
+  }
+  
+  .create-task input[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .create-task input[type="submit"]:hover {
+    background-color: #45a049;
+  }
